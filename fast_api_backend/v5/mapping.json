@@ -1,0 +1,170 @@
+{
+  "Company": {
+    "type": "owl:Class",
+    "properties": {
+      "hasName": { "jsonPath": "$.name", "type": "xsd:string" },
+      "hasShortName": { "jsonPath": "$.shortName", "type": "xsd:string" },
+      "hasBusinessCode": { "jsonPath": "$.businessCode", "type": "xsd:string" },
+      "hasCompanyType": { "jsonPath": "$.companyType", "type": "xsd:string" },
+      "hasEstablishmentDate": {
+        "jsonPath": "$.establishmentDate",
+        "type": "xsd:date"
+      },
+      "hasHeadquarters": { "jsonPath": "$.headquarters", "type": "xsd:string" },
+      "hasCharterCapital": {
+        "jsonPath": "$.charterCapital",
+        "type": "xsd:decimal"
+      },
+      "hasMainIndustry": { "jsonPath": "$.mainIndustry", "type": "xsd:string" },
+      "hasLegalRepresentative": {
+        "jsonPath": "$.legalRepresentative",
+        "type": "object",
+        "class": "Executive"
+      },
+      "hasLogo": { "jsonPath": "$.logo", "type": "xsd:string" },
+      "hasSlogan": { "jsonPath": "$.slogan", "type": "xsd:string" },
+      "hasHistory": { "jsonPath": "$.history", "type": "xsd:string" },
+      "hasVision": { "jsonPath": "$.vision", "type": "xsd:string" },
+      "hasMission": { "jsonPath": "$.mission", "type": "xsd:string" },
+      "hasShareholder": {
+        "jsonPath": "$.shareholders",
+        "type": "objectArray",
+        "class": "Shareholder"
+      },
+      "hasExecutive": {
+        "jsonPath": "$.executives",
+        "type": "objectArray",
+        "class": "Executive"
+      },
+      "hasFinancialReport": {
+        "jsonPath": "$.financialReports",
+        "type": "objectArray",
+        "class": "FinancialReport"
+      },
+      "offersProduct": {
+        "jsonPath": "$.products",
+        "type": "objectArray",
+        "class": "Product"
+      },
+      "holdsLicense": {
+        "jsonPath": "$.licenses",
+        "type": "objectArray",
+        "class": "License"
+      },
+      "hasDepartment": {
+        "jsonPath": "$.departments",
+        "type": "objectArray",
+        "class": "Department"
+      },
+      "hasOffice": {
+        "jsonPath": "$.offices",
+        "type": "objectArray",
+        "class": "Office"
+      },
+      "announcesEvent": {
+        "jsonPath": "$.events",
+        "type": "objectArray",
+        "class": "Event"
+      },
+      "hasContract": {
+        "jsonPath": "$.contracts",
+        "type": "objectArray",
+        "class": "Contract"
+      }
+    }
+  },
+  "Shareholder": {
+    "properties": {
+      "shareQuantity": { "jsonPath": "$.quantity", "type": "xsd:decimal" },
+      "sharePercentage": { "jsonPath": "$.percentage", "type": "xsd:decimal" },
+      "shareType": { "jsonPath": "$.type", "type": "xsd:string" },
+      "stockHistory": { "jsonPath": "$.history", "type": "xsd:string" }
+    }
+  },
+  "Executive": {
+    "properties": {
+      "position": { "jsonPath": "$.position", "type": "xsd:string" },
+      "resume": { "jsonPath": "$.resume", "type": "xsd:string" },
+      "experience": { "jsonPath": "$.experience", "type": "xsd:string" }
+    }
+  },
+  "FinancialReport": {
+    "properties": {
+      "reportYear": { "jsonPath": "$.year", "type": "xsd:gYear" },
+      "balanceSheet": { "jsonPath": "$.balanceSheet", "type": "xsd:string" },
+      "incomeStatement": {
+        "jsonPath": "$.incomeStatement",
+        "type": "xsd:string"
+      },
+      "cashFlow": { "jsonPath": "$.cashFlow", "type": "xsd:string" },
+      "notes": { "jsonPath": "$.notes", "type": "xsd:string" },
+      "auditorResult": { "jsonPath": "$.auditorResult", "type": "xsd:string" },
+      "quarterlyReport": {
+        "jsonPath": "$.quarterlyReport",
+        "type": "xsd:string"
+      },
+      "budgetPlan": { "jsonPath": "$.budgetPlan", "type": "xsd:string" },
+      "kpiAnalysis": { "jsonPath": "$.kpiAnalysis", "type": "xsd:string" },
+      "reportsKPI": {
+        "jsonPath": "$.kpis",
+        "type": "objectArray",
+        "class": "KPI"
+      }
+    }
+  },
+  "Product": {
+    "properties": {
+      "productName": { "jsonPath": "$.name", "type": "xsd:string" },
+      "productDescription": {
+        "jsonPath": "$.description",
+        "type": "xsd:string"
+      },
+      "productCategory": { "jsonPath": "$.category", "type": "xsd:string" }
+    }
+  },
+  "License": {
+    "properties": {
+      "licenseType": { "jsonPath": "$.type", "type": "xsd:string" },
+      "issueDate": { "jsonPath": "$.issueDate", "type": "xsd:date" },
+      "validity": { "jsonPath": "$.validity", "type": "xsd:date" }
+    }
+  },
+  "Department": {
+    "properties": {
+      "departmentName": { "jsonPath": "$.name", "type": "xsd:string" },
+      "departmentHead": {
+        "jsonPath": "$.head",
+        "type": "object",
+        "class": "Executive"
+      }
+    }
+  },
+  "Event": {
+    "properties": {
+      "eventTitle": { "jsonPath": "$.title", "type": "xsd:string" },
+      "eventDate": { "jsonPath": "$.date", "type": "xsd:date" },
+      "eventDescription": { "jsonPath": "$.description", "type": "xsd:string" }
+    }
+  },
+  "Contract": {
+    "properties": {
+      "partnerName": { "jsonPath": "$.partnerName", "type": "xsd:string" },
+      "contractType": { "jsonPath": "$.type", "type": "xsd:string" },
+      "startDate": { "jsonPath": "$.startDate", "type": "xsd:date" },
+      "endDate": { "jsonPath": "$.endDate", "type": "xsd:date" }
+    }
+  },
+  "KPI": {
+    "properties": {
+      "kpiName": { "jsonPath": "$.name", "type": "xsd:string" },
+      "kpiValue": { "jsonPath": "$.value", "type": "xsd:string" },
+      "kpiPeriod": { "jsonPath": "$.period", "type": "xsd:string" }
+    }
+  },
+  "Office": {
+    "properties": {
+      "officeAddress": { "jsonPath": "$.address", "type": "xsd:string" },
+      "officeCity": { "jsonPath": "$.city", "type": "xsd:string" }
+    }
+  }
+}

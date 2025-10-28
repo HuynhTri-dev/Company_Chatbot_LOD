@@ -1,0 +1,113 @@
+@prefix : <http://example.org/company#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+# Classes (Entities)
+#################################################################
+
+:Company a owl:Class .
+:Shareholder a owl:Class .
+:Executive a owl:Class .
+:FinancialReport a owl:Class .
+:Product a owl:Class .
+:License a owl:Class .
+:Department a owl:Class .
+:Event a owl:Class .
+:Contract a owl:Class .
+:Office a owl:Class .
+:KPI a owl:Class .
+
+#################################################################
+# Properties (Attributes)
+#################################################################
+
+# Company attributes
+:hasName a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasShortName a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasBusinessCode a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasCompanyType a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasEstablishmentDate a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:date .
+:hasHeadquarters a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasCharterCapital a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:decimal .
+:hasMainIndustry a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasLegalRepresentative a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :Executive .
+:hasLogo a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasSlogan a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasHistory a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasVision a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+:hasMission a owl:DatatypeProperty ; rdfs:domain :Company ; rdfs:range xsd:string .
+
+# Shareholder attributes
+:shareQuantity a owl:DatatypeProperty ; rdfs:domain :Shareholder ; rdfs:range xsd:decimal .
+:sharePercentage a owl:DatatypeProperty ; rdfs:domain :Shareholder ; rdfs:range xsd:decimal .
+:shareType a owl:DatatypeProperty ; rdfs:domain :Shareholder ; rdfs:range xsd:string .
+:stockHistory a owl:DatatypeProperty ; rdfs:domain :Shareholder ; rdfs:range xsd:string .
+
+# Executive attributes
+:position a owl:DatatypeProperty ; rdfs:domain :Executive ; rdfs:range xsd:string .
+:resume a owl:DatatypeProperty ; rdfs:domain :Executive ; rdfs:range xsd:string .
+:experience a owl:DatatypeProperty ; rdfs:domain :Executive ; rdfs:range xsd:string .
+
+# FinancialReport attributes
+:reportYear a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:gYear .
+:balanceSheet a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:string .
+:incomeStatement a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:string .
+:cashFlow a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:string .
+:notes a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:string .
+:auditorResult a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:string .
+:quarterlyReport a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:string .
+:budgetPlan a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:string .
+:kpiAnalysis a owl:DatatypeProperty ; rdfs:domain :FinancialReport ; rdfs:range xsd:string .
+
+# Product attributes
+:productName a owl:DatatypeProperty ; rdfs:domain :Product ; rdfs:range xsd:string .
+:productDescription a owl:DatatypeProperty ; rdfs:domain :Product ; rdfs:range xsd:string .
+:productCategory a owl:DatatypeProperty ; rdfs:domain :Product ; rdfs:range xsd:string .
+
+# License attributes
+:licenseType a owl:DatatypeProperty ; rdfs:domain :License ; rdfs:range xsd:string .
+:issueDate a owl:DatatypeProperty ; rdfs:domain :License ; rdfs:range xsd:date .
+:validity a owl:DatatypeProperty ; rdfs:domain :License ; rdfs:range xsd:date .
+
+# Department attributes
+:departmentName a owl:DatatypeProperty ; rdfs:domain :Department ; rdfs:range xsd:string .
+:departmentHead a owl:ObjectProperty ; rdfs:domain :Department ; rdfs:range :Executive .
+
+# Event attributes
+:eventTitle a owl:DatatypeProperty ; rdfs:domain :Event ; rdfs:range xsd:string .
+:eventDate a owl:DatatypeProperty ; rdfs:domain :Event ; rdfs:range xsd:date .
+:eventDescription a owl:DatatypeProperty ; rdfs:domain :Event ; rdfs:range xsd:string .
+
+# Contract attributes
+:partnerName a owl:DatatypeProperty ; rdfs:domain :Contract ; rdfs:range xsd:string .
+:contractType a owl:DatatypeProperty ; rdfs:domain :Contract ; rdfs:range xsd:string .
+:startDate a owl:DatatypeProperty ; rdfs:domain :Contract ; rdfs:range xsd:date .
+:endDate a owl:DatatypeProperty ; rdfs:domain :Contract ; rdfs:range xsd:date .
+
+# KPI attributes
+:kpiName a owl:DatatypeProperty ; rdfs:domain :KPI ; rdfs:range xsd:string .
+:kpiValue a owl:DatatypeProperty ; rdfs:domain :KPI ; rdfs:range xsd:string .
+:kpiPeriod a owl:DatatypeProperty ; rdfs:domain :KPI ; rdfs:range xsd:string .
+
+# Office attributes
+:officeAddress a owl:DatatypeProperty ; rdfs:domain :Office ; rdfs:range xsd:string .
+:officeCity a owl:DatatypeProperty ; rdfs:domain :Office ; rdfs:range xsd:string .
+
+#################################################################
+# Object Properties (Relationships)
+#################################################################
+
+:hasShareholder a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :Shareholder .
+:hasExecutive a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :Executive .
+:hasFinancialReport a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :FinancialReport .
+:offersProduct a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :Product .
+:holdsLicense a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :License .
+:hasDepartment a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :Department .
+:hasOffice a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :Office .
+:announcesEvent a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :Event .
+:hasContract a owl:ObjectProperty ; rdfs:domain :Company ; rdfs:range :Contract .
+:reportsKPI a owl:ObjectProperty ; rdfs:domain :FinancialReport ; rdfs:range :KPI .
+:ledBy a owl:ObjectProperty ; rdfs:domain :Department ; rdfs:range :Executive .

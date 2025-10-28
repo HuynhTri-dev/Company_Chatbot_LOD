@@ -1,0 +1,413 @@
+@prefix ex: <http://example.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/ontology/-_khách_hàng_tự_ý_can_thiệp_vào_máy> rdfs:label "- Khách hàng tự ý can thiệp vào máy" ;
+    ex:của "sản phẩm hoặc đem đến một nơi nào khác sửa chữa" .
+
+<http://example.org/ontology/-_lỗi_về_máy_và_bị_hư_hỏng_do_nhà_sản_xuất_không_có_sự_tác_động> rdfs:label "- Lỗi về máy và bị hư hỏng do nhà sản xuất, không có sự tác động" ;
+    ex:của "con người" .
+
+<http://example.org/ontology/-_mã_số_sản_phẩm_và_biên_bản_bảo_hành_không_trùng_khớp_nhau_hoặc_không_xác_định> rdfs:label "- Mã số sản phẩm và Biên bản bảo hành không trùng khớp nhau hoặc không xác định" ;
+    ex:có "vì bất kỳ lý do nào" .
+
+<http://example.org/ontology/-_sản_phẩm_không_giống_hoàn_toàn_100_với_sản_phẩm_mà_quý_khách_đã_đặt_hàng_trên_website> rdfs:label "- Sản phẩm không giống hoàn toàn 100% với sản phẩm mà Quý khách đã đặt hàng trên website" ;
+    ex:của "chúng tôi" .
+
+<http://example.org/ontology/-_sản_phẩm_được_bảo_hành_theo_quy_định> rdfs:label "- Sản phẩm được bảo hành theo quy định" ;
+    ex:của "nhà cung cấp" .
+
+<http://example.org/ontology/-_sản_phẩm_đổi_trả_cần_nguyên_vẹn_nhãn_mác_hộp_bao_bì_gốc> rdfs:label "- Sản phẩm đổi trả cần nguyên vẹn nhãn mác, hộp, bao bì gốc" ;
+    ex:của "sản phẩm như khi Quý khách nhận hàng lúc đầu" .
+
+<http://example.org/ontology/-_thời_gian_giải_quyết_khiếu_nại_trong_thời_hạn_tối_đa_là_03_ba_ngày_làm_việc_kể_từ_khi_nhận_được_khiếu_nại> rdfs:label "- Thời gian giải quyết khiếu nại trong thời hạn tối đa là 03 (ba) ngày làm việc kể từ khi nhận được khiếu nại" ;
+    ex:của "của khách hàng" .
+
+<http://example.org/ontology/-_tất_cả_mọi_trường_hợp_bảo_hành_quý_khách> rdfs:label "- Tất cả mọi trường hợp bảo hành, quý khách" ;
+    ex:có "thể liên hệ với chúng tôi để làm thủ tục bảo hành" .
+
+ex:003-3_cùng_sản_xuất_gia_công_sổ_tay_7_thực_hành_mua_hàng_tốt_nhất rdfs:label "003-3 Cùng Sản xuất gia công Sổ tay 7 Thực hành Mua hàng Tốt nhất" ;
+    ex:của "Nestlé Mỗi Thị trường Nestle hoặc đơn vị Kinh doanh Nestlé có trách nhiệm rà soát và triển khai chính sách và các thủ tục Mua hàng của mình nhằm bảo đảm sự tuân thủ nhất quán đối với chính sách này" .
+
+ex:bằng_việc_thông_qua_và_áp_dụng_liên_tục_các_phương_pháp_và_cách_hành_xử_xuất_sắc_liên_tục_nestlé_trong_phạm_vi_mua_hàng_chúng_ta_sẽ_tăng_lợi_thế_cạnh_tranh rdfs:label "Bằng việc thông qua và áp dụng liên tục các phương pháp và cách hành xử Xuất sắc Liên tục Nestlé trong phạm vi Mua hàng, chúng ta sẽ tăng lợi thế cạnh tranh" ;
+    ex:của "chúng ta bằng cách loại bỏ lãng phí trong các quy trình của chúng ta và tiến đến chỗ KHÔNG Lãng phí, MỘT Đội ngũ, 100% Toàn tâm Toàn ý" .
+
+ex:bộ_phận_mua_hàng_nắm_rõ_quy_trình_tìm_nguồn_cung_ứng_đưa_đến_các_quyết_định_lựa_chọn_nhà_cung_cấp_và_đề_xuất_các_quyết_định_chọn_nhà_cung_cấp_cho_các_bên_có_lợi_ích_liên_quan rdfs:label "Bộ phận Mua hàng nắm rõ quy trình tìm nguồn cung ứng, đưa đến các quyết định lựa chọn nhà cung cấp và đề xuất các quyết định chọn nhà cung cấp cho các bên có lợi ích liên quan" ;
+    ex:của ex:doanh_nghiệp .
+
+ex:bộ_phận_mua_hàng_sẽ_chọn_các_nhà_cung_cấp_dựa_trên_một_quy_trình_chính_thức_và_chặt_chẽ_mạch_lạc_để_đảm_bảo_đáp_ứng_các_yêu_cầu rdfs:label "Bộ phận Mua hàng sẽ chọn các nhà cung cấp dựa trên một quy trình chính thức và chặt chẽ mạch lạc để đảm bảo đáp ứng các yêu cầu" ;
+    ex:của "Nestlé và đạt được các điều kiện cạnh tranh Giới thiệu Quy trình lựa chọn nhà cung cấp đối với các nhà cung cấp cung cấp nguyên vật liệu và bao bì, các vật phẩm khuyến mãi hoặc các nguyên vật liệu gián tiếp khác tiếp xúc với các sản phẩm thực phẩm được điều chỉnh bởi hướng dẫn chung Quy trình Phê Duyệt Nhà Cung cấp GI- 31,104-3, với việc sử dụng Kim chỉ nam Phê Duyệt Nhà cung cấp và cho tất cả các nhà cung cấp khác bởi 7 Bước Chiến Lược Tìm Nguồn Cung Ứng" .
+
+ex:bộ_phận_mua_hàng_sẽ_tham_gia_ngay_từ_đầu_mọi_quy_trình_phát_triển_sản_phẩm_mới_nhằm_đảm_bảo_giá_trị_lớn_nhất rdfs:label "Bộ phận Mua hàng sẽ tham gia ngay từ đầu mọi quy trình phát triển sản phẩm mới nhằm đảm bảo giá trị lớn nhất" ;
+    ex:có "thể đạt được trong thời gian phát triển các ý tưởng, khái niệm, phát triển sản phẩm và các giai đoạn công nghiệp hóa sản phẩm" .
+
+ex:bộ_phận_mua_hàng_sẽ_theo_dõi_việc_thực_hiện_và_tuân_thủ_chính_sách_này_và_can_thiệp_trong_trường_hợp rdfs:label "Bộ phận Mua hàng sẽ theo dõi việc thực hiện và tuân thủ chính sách này và can thiệp trong trường hợp" ;
+    ex:có "sự sai lạc" .
+
+ex:bộ_phận_mua_hàng_và_nhân_sự_tất_cả_các_thành_viên rdfs:label "Bộ Phận Mua hàng và Nhân sự Tất cả các thành viên" ;
+    ex:của "phòng ban Mua hàng Nestlé sẽ tự hào về việc tuân theo những nguyên tắc và giá trị của các Nguyên tắc Quản lý và Lãnh đạo Nestlé và điều này sẽ là cơ sở để dựa trên đó chúng ta xử sự với các đồng nghiệp của mình và thực hiện các hoạt động hàng ngày của chúng ta" .
+
+ex:chính_sách_mua_hàng_nestlé_nên rdfs:label "Chính sách Mua Hàng Nestlé nên" ;
+    ex:có "đưa vào các chương trình giới thiệu cho người mới vào làm trong các chức vụ đảm nhận các hoạt động mua hàng" .
+
+ex:chính_sách_này_áp_dụng_đối_với_toàn_bộ_các_chi_tiêu rdfs:label "Chính sách này áp dụng đối với toàn bộ các chi tiêu" ;
+    ex:của "Nestlé cho các bên thứ ba, ngoại trừ chi tiêu thương mại" .
+
+ex:chính_sách_thanh_toán rdfs:label "Chính sách thanh toán:" ;
+    ex:có "2 hình thức thanh toán, Quý khách hàng có thể lựa chọn hình thức thuận tiện và phù hợp với mình nhất: Cách 1 : Khách hàng thanh toán 100% tiền hàng trước khi giao hàng" .
+
+ex:chính_sách_vận_chuyển_và_giao_nhận_thông_thường_sau_khi_nhận rdfs:label "Chính sách vận chuyển và giao nhận: Thông thường sau khi nhận" ;
+    ex:có "thông tin đặt hàng chúng tôi sẽ xử lý đơn hàng trong vòng 24h và phản hồi lại thông tin lại cho khách hàng về việc thanh toán và giao nhận" .
+
+ex:chính_sách_xử_lý_khiếu_nại_-_tiếp_nhận_mọi_khiếu_nại rdfs:label "Chính sách xử lý khiếu nại: - Tiếp nhận mọi khiếu nại" ;
+    ex:của "khách hàng liên quan đến việc sử dụng dịch vụ của công ty" .
+
+ex:chính_sách_đổi_hàng_điều_kiện_về_thời_gian_đổi_hàng_trong_vòng_01_ngày_kể_từ_khi_nhận rdfs:label "Chính sách đổi hàng: Điều kiện về thời gian đổi hàng: trong vòng 01 ngày kể từ khi nhận" ;
+    ex:có "hàng và phải liên hệ gọi ngay cho chúng tôi theo số điện thoại trên để được xác nhận đổi trả hàng" .
+
+ex:chúng_ta_muốn_có_các_nhà_cung_cấp_tốt_nhất_cho_doanh_nghiệp rdfs:label "Chúng ta muốn có các nhà cung cấp tốt nhất cho Doanh nghiệp" ;
+    ex:của "chúng ta Giới Thiệu Việc quản lý và phát triển nhà cung cấp sẽ được thực hiện để đo lường và tối đa hóa hiệu suất của các nhà cung cấp của chúng ta và cung cấp lợi thế cạnh tranh do các nhà cung cấp mang lại thông qua các hoạt động phát triển nhà cung cấp" .
+
+ex:chúng_ta_phân_loại_các_chi_tiêu rdfs:label "Chúng ta phân loại các chi tiêu" ;
+    ex:của "chúng ta và của các nhà cung cấp dựa trên các tiêu chí giá trị và rủi ro" .
+
+ex:chúng_ta_sẽ rdfs:label "Chúng ta sẽ" ;
+    ex:có "điều chỉnh bởi tiêu chuẩn Theo dõi sự Xuất sắc trong Điều hành – các Cải tiến Chi phí khi ta báo cáo các cải tiến chi phí" .
+
+ex:chúng_ta_sẽ_nhấn_mạnh_đến_tuân_thủ_và_phát_triển_bền_vững_và_thể_hiện_sự_cam_kết_và_đóng_góp rdfs:label "Chúng ta sẽ nhấn mạnh đến tuân thủ và phát triển bền vững và thể hiện sự cam kết và đóng góp" ;
+    ex:của "phần mua hàng trong việc tạo ra Giá trị Chung cho xã hội" .
+
+ex:chúng_ta_sẽ_sử_dụng_quy_trình_7_bước_chiến_lược_tìm_nguồn_cung_ứng_để_xác_định_các_chiến_lược_theo_thể_loại_chi_tiêu_thông_qua_xem_xét_cả_nhu_cầu rdfs:label "Chúng ta sẽ sử dụng Quy trình 7 Bước Chiến lược Tìm nguồn Cung ứng để: xác định các chiến lược theo thể loại chi tiêu thông qua xem xét cả nhu cầu" ;
+    ex:của "Nestlé lẫn sự sẵn sang của nguồn cung; và xác định các chiến lược nhà cung cấp để đảm bảo sử dụng một cách tiếp cận thích hợp đối với việc quản lý nhà cung cấp" .
+
+ex:chúng_ta_sẽ_xây_dựng_các_năng_lực_mua_hàng rdfs:label "Chúng ta sẽ xây dựng các năng lực Mua hàng" ;
+    ex:của "nhân sự chúng ta thông qua tuyển dụng đúng người, cung cấp cho họ các đào tạo cần thiết và phát triển liên tục và quản lý tài năng của chúng ta" .
+
+ex:chúng_ta_sẽ_đem_lại_giá_trị_bền_vững_cho_doanh_nghiệp_thông_qua_việc_tập_trung_vào_dịch_vụ_lợi_thế_tổng_chi_phí_và_đổi_mới_tổng_chi_tiêu_nestlé_sẽ_điều_hành_các_hoạt_động_tìm_nguồn_cung_ứng rdfs:label "Chúng ta sẽ đem lại giá trị bền vững cho Doanh nghiệp thông qua việc tập trung vào dịch vụ, lợi thế tổng chi phí và đổi mới Tổng Chi tiêu Nestlé sẽ điều hành các hoạt động tìm nguồn cung ứng" ;
+    ex:của "mình tại mức độ hiệu quả nhất của sự tổng hợp các chi phí được xác định cho mỗi thể loại để tận dụng tầm cỡ và khả năng hiểu biết sâu sát của Nestlé" .
+
+ex:chúng_ta_sẽ_đảm_bảo_rằng_các_nhà_cung_cấp rdfs:label "Chúng ta sẽ đảm bảo rằng các nhà cung cấp" ;
+    ex:của "chúng ta đáp ứng được vấn đề truy xuất nguồn gốc hàng hóa và dịch vụ mà họ cung cấp cho Nestlé" .
+
+ex:chúng_ta_sẽ_đảm_bảo_rằng_các_nhà_cung_cấp_chiến_lược rdfs:label "Chúng ta sẽ đảm bảo rằng các nhà cung cấp chiến lược" ;
+    ex:của "chúng ta luôn ưu tiên cho Nestlé trong việc lựa chọn các đổi mới của họ và nhân sự Mua hàng của chúng ta liên tục tìm kiếm môi trường cung cấp cho các cơ hội mới" .
+
+ex:chúng_ta_sẽ_đảm_bảo_rằng_năng_lực_và_công_suất rdfs:label "Chúng ta sẽ đảm bảo rằng năng lực và công suất" ;
+    ex:của "nhà cung cấp của chúng ta phù hợp với các nhu cầu dài hạn của Nestlé" .
+
+ex:chúng_ta_sẽ_đối_xử_với_các_nhà_cung_cấp rdfs:label "Chúng ta sẽ đối xử với các nhà cung cấp" ;
+    ex:của "chúng ta như chúng ta mong muốn khách hàng của chúng ta đối xử với Nestlé" .
+
+ex:chúng_tôi_cam_kết_kinh_doanh_minh_bạch_hợp_pháp_bán_hàng_chất_lượng rdfs:label "Chúng tôi cam kết kinh doanh minh bạch, hợp pháp, bán hàng chất lượng," ;
+    ex:có "nguồn gốc" .
+
+ex:chỉ rdfs:label "Chỉ" ;
+    ex:có "các nhà cung cấp trong danh sách sơ tuyển sẽ được mời tham gia vào quá trình báo giá hoặc yêu cầu lập đề xuất" .
+
+ex:chọn_nhà_cung_cấp_sau_khi_đã_nộp_các_đề_xuất rdfs:label "Chọn Nhà Cung cấp Sau khi đã nộp các đề xuất" ;
+    ex:của "mình, các nhà cung cấp trong danh sách sơ tuyển sẽ được phân tích đối với một tiền xác định tập hợp các tiêu chí đánh giá để xác định nếu họ đáp ứng tất cả các yêu cầu liên quan đến hàng hóa và dịch vụ mà Nestlé yêu cầu" .
+
+ex:cung_ứng_hàng_một_cách_có_trách_nhiệm_quy_tắc_áp_dụng_cho_nhà_cung_cấp rdfs:label "Cung ứng hàng một cách có trách nhiệm Quy tắc Áp Dụng cho Nhà Cung cấp" ;
+    ex:của "Nestlé xác định các tiêu chuẩn tối thiểu không thể thương lượng mà các nhà cung cấp của chúng ta phải tuân thủ khi giao hàng cho Nestlé" .
+
+ex:các_giao_dịch_mua_hàng_sẽ_được_xử_lý_một_cách_cẩn_trọng_đối_với_các_dữ_liệu_và_thông_tin_được_nhập_nhằm_đảm_bảo_tính_đầy_đủ_và_đáng_tin rdfs:label "Các giao dịch mua hàng sẽ được xử lý một cách cẩn trọng đối với các dữ liệu và thông tin được nhập nhằm đảm bảo tính đầy đủ và đáng tin" ;
+    ex:của "các dữ liệu lưu giữ" .
+
+ex:các_hoạt_động_này_cũng_đảm_bảo_rằng_chúng_ta_có_thể_tập_trung_khả_năng_hiểu_biết_sâu_sát_trong_việc_mua_hàng rdfs:label "Các hoạt động này cũng đảm bảo rằng chúng ta có thể tập trung khả năng hiểu biết sâu sát trong việc Mua hàng" ;
+    ex:của "chúng ta và tránh sự trùng lặp các nguồn tài nguyên" .
+
+ex:các_lĩnh_vực_trọng_tâm rdfs:label "Các lĩnh vực trọng tâm" ;
+    ex:của "việc đánh giá đối tác cung cấp là: An toàn và Chất lượng Thực phẩm / Bao bì; Sự Cung ứng hàng một cách có trách nhiệm" .
+
+ex:các_tiêu_chí_đánh_giá_tối_thiểu_sẽ_bao_gồm_thông_số_kỹ_thuật_các_điều_kiện_về_giá_các_điều_kiện_về_dịch_vụ_an_toàn_và_chất_lượng_thực_phẩm_bao_bì_các_khả_năng_kỹ_thuật_nghiên_cứu_phát_triển_sản_phẩm_sự_cung_ứng_hàng_một_cách rdfs:label "Các tiêu chí đánh giá tối thiểu sẽ bao gồm: Thông số kỹ thuật; Các Điều kiện về Giá; Các Điều kiện về Dịch vụ; An toàn và Chất lượng Thực phẩm / Bao bì; Các Khả năng kỹ thuật, nghiên cứu phát triển sản phẩm; Sự Cung ứng hàng một cách" ;
+    ex:có "trách nhiệm; Sự Ổn định Tài chính Các nhà cung cấp có tiềm năng sẽ được lựa chọn dựa trên một phân tích khách quan về các tiêu chí đánh giá" .
+
+ex:các_điều_khoản rdfs:label "Các điều khoản" ;
+    ex:của "Quy tắc Ứng xử trong Kinh doanh điều chỉnh chặt chẽ tất cả các quan hệ của chúng ta với các nhà cung cấp" .
+
+ex:các_điều_phối_viên_vai_trò_thị_trường_sẽ_đảm_bảo_rằng_các_vai_trò_globe rdfs:label "Các Điều phối viên Vai trò Thị trường sẽ đảm bảo rằng các vai trò GLOBE" ;
+    ex:có "phân bổ để tránh một sự xung đột nhiệm vụ" .
+
+ex:các_đối_tác_kinh_doanh_mua_hàng_sẽ_thường_xuyên_tham_gia_vào_các_cuộc_họp_và_các_hội_thảo_doanh_nghiệp_quan_trọng_để_đảm_bảo_họ rdfs:label "Các đối tác Kinh doanh Mua hàng sẽ thường xuyên tham gia vào các cuộc họp và các hội thảo Doanh nghiệp quan trọng để đảm bảo họ" ;
+    ex:có "các thông tin Doanh nghiệp được cập nhật, có thể cung cấp lời khuyên tư vấn về việc Mua hàng cụ thể và kịp thời, nắm bắt hiểu biết và có thể đóng góp vào các chiến lược Doanh nghiệp dài hạn" .
+
+ex:cách_2_khách_hàng rdfs:label "Cách 2 : Khách hàng" ;
+    ex:có "thể chuyển khoản đặt cọc trước, sau đó chúng tôi tiến hành ký hợp đồng với Quý khách giao hàng theo thỏa thuận" .
+
+ex:cách_chúng_ta_tuyển_dụng_và_quản_lý_người rdfs:label "Cách chúng ta tuyển dụng và quản lý người" ;
+    ex:của "chúng ta được điều chỉnh bởi những hướng dẫn trong Chính sách Nguồn Nhân lực Nestlé và Đường hướng Lãnh đạo Nestlé" .
+
+ex:cách_phân_loại_của_nestlé_phân_biệt_rõ_giữa_các_loại_hàng_và_nhà_cung_cấp rdfs:label "Cách phân loại của Nestlé phân biệt rõ giữa các loại hàng và nhà cung cấp" ;
+    ex:thuộc "các liên minh chiến lược, tác động đòn bẩy, nút cổ chai và không quan trọng" .
+
+ex:cách_phân_loại_này_đảm_bảo_rằng_chiến_lược_thể_loại_và_chiến_lược_nhà_cung_cấp_thích_hợp_nhất_sẽ rdfs:label "Cách phân loại này đảm bảo rằng chiến lược thể loại và chiến lược nhà cung cấp thích hợp nhất sẽ" ;
+    ex:có "thực hiện" .
+
+ex:công_tác_phát_triển_nhà_cung_cấp_tốt_sẽ_đảm_bảo_cho_tất_cả_các_bên_đều_hưởng_lợi_từ_các_mục_tiêu_đã_thỏa_thuận_và_từ_một_mối_quan_hệ rdfs:label "Công tác phát triển nhà cung cấp tốt sẽ đảm bảo cho tất cả các bên đều hưởng lợi từ các mục tiêu đã thỏa thuận và từ một mối quan hệ" ;
+    ex:có "xây dựng trên sự tin tưởng" .
+
+ex:cải_tiến_chi_phí_việc_theo_dõi_và_báo_cáo_trong_những_cải_tiến_chi_phí rdfs:label "Cải tiến Chi phí Việc theo dõi và báo cáo trong những cải tiến chi phí" ;
+    ex:có "tạo ra bởi bộ phận Mua hàng sẽ chứng minh giá trị mà chúng ta thêm vào Doanh nghiệp" .
+
+ex:dữ_liệu_gốc_mua_hàng_sẽ_được_quản_lý_một_cách_cẩn_thận_để_đảm_bảo_tính_toàn_vẹn rdfs:label "Dữ liệu gốc mua hàng sẽ được quản lý một cách cẩn thận để đảm bảo tính toàn vẹn" ;
+    ex:của "dữ liệu" .
+
+ex:dữ_liệu_gốc_sẽ rdfs:label "Dữ liệu gốc sẽ" ;
+    ex:có "tạo ra và cập nhật kịp thời, tuân thủ các nguyên tắc làm đúng ngay từ đầu" .
+
+ex:dữ_liệu_mua_hàng_việc_lưu_trữ_các_dữ_liệu_chính_xác_và_nhất_quán_về_việc_mua_hàng_giúp_việc_cho_lập_các_quyết_định rdfs:label "Dữ liệu Mua hàng Việc lưu trữ các dữ liệu chính xác và nhất quán về việc mua hàng giúp việc cho lập các quyết định" ;
+    ex:có "hiệu quả và nhanh hơn" .
+
+ex:giá_trị_ngưỡng rdfs:label "Giá trị ngưỡng" ;
+    ex:của "việc mua hàng với giá trị đáng kể được xác định ở một mức độ Thị trường nào đó" .
+
+ex:giá_trị_này_sẽ_được_mang_đến_thông_qua_các_nhân_sự_đúng_người_đúng_việc_và_hành_xử_nhất_quán_thống_nhất_trong_một_đội_ngũ_áp_dụng_các_thực_hành_tốt_nhất_về_mua_hàng_phù_hợp_với_sổ_tay_7_thực_hành_mua_hàng_tốt_nhất rdfs:label "Giá trị này sẽ được mang đến thông qua các nhân sự “đúng người đúng việc” và hành xử nhất quán thống nhất trong MỘT đội ngũ, áp dụng các thực hành tốt nhất về Mua hàng phù hợp với Sổ tay 7 Thực hành Mua hàng Tốt nhất" ;
+    ex:của "Nestlé và kết hợp các chi tiêu như một đòn bẩy ở mức độ thích hợp: Dịch vụ Lắng nghe, thấu hiểu, thống nhất, tham gia sớm, với tính minh bạch và thực hiện hoàn hảo với Doanh nghiệp" .
+
+ex:hàng_nestlé rdfs:label "Hàng Nestlé" ;
+    ex:is_a ex:org .
+
+ex:họ_sẽ_có_trách_nhiệm_phối_hợp_chặt_chẽ_với_các_đơn_vị_kinh_doanh_để_chuyển_đổi_nhu_cầu_đơn_vị_kinh_doanh_vào_các_chiến_lược_và_hành_động_mua_hàng_và_để_đảm_bảo_sự_liên_kết_giữa_các_sáng_kiến_mua_hàng_và_các_mục_tiêu rdfs:label "Họ sẽ có trách nhiệm phối hợp chặt chẽ với các đơn vị Kinh doanh để chuyển đổi nhu cầu đơn vị kinh doanh vào các chiến lược và hành động Mua hàng và để đảm bảo sự liên kết giữa các sáng kiến Mua hàng và các mục tiêu" ;
+    ex:của "đơn vị kinh doanh" .
+
+ex:khi_cần rdfs:label "Khi cần," ;
+    ex:có "thể tìm kiếm sự hướng dẫn từ người quản lý trực tuyến hoặc bộ phận chức năng Mua hàng" .
+
+ex:khách_hàng rdfs:label "Khách hàng" ;
+    ex:của "chúng ta sẽ hiểu được chuỗi giá trị đối với hàng hóa và các dịch vụ mà họ mua, có thể đánh giá các rủi ro trong chuỗi giá trị và đảm bảo rằng Doanh nghiệp hiểu được những rủi ro này" .
+
+ex:kiểm_soát_nội_bộ_trong_các_quy_trình_mua_hàng_các_quy_trình_mua_hàng_sẽ_bao_gồm_các_quy_định_về_kiểm_soát_nội_bộ_và_các_sự_kiểm_soát_này_sẽ rdfs:label "Kiểm soát Nội bộ trong các Quy trình Mua hàng Các quy trình Mua hàng sẽ bao gồm các quy định về kiểm soát nội bộ và các sự kiểm soát này sẽ" ;
+    ex:có "cụ thể hóa trong văn bản thực hiện quy trình" .
+
+ex:kiểm_soát_và_tuân_thủ_vượt_trội_trong_việc_tuân_thủ_là_chìa_khóa_đảm_bảo_việc_chúng_ta_đem_lại_giá_trị_bền_vững_cho_nestlé_trong_khi_tôn_trọng_các_nguyên_tắc_kinh_doanh rdfs:label "Kiểm soát và Tuân thủ Vượt trội trong việc tuân thủ là chìa khóa đảm bảo việc chúng ta đem lại giá trị bền vững cho Nestlé trong khi tôn trọng các nguyên tắc Kinh doanh" ;
+    ex:của "chúng ta Phân tách Nhiệm vụ Một sự phân biệt và tách bạch thích hợp các nhiệm vụ sẽ được áp dụng trong tất cả các phòng ban Mua hàng của Nestlé để ngăn chặn sự gian lận và hạn chế rủi ro" .
+
+ex:kết_nối_kinh_doanh_bộ_phận_mua_hàng_sẽ_là_một_đối_tác_kinh_doanh_chiến_lược_làm_việc_với_doanh_nghiệp_vì_doanh_nghiệp_mục_tiêu_chung_tất_cả_các_mục_tiêu_mua_hàng_sẽ_được_sự_đồng_ý rdfs:label "Kết nối Kinh doanh Bộ phận Mua hàng sẽ là một đối tác kinh doanh chiến lược; làm việc với Doanh nghiệp vì Doanh nghiệp Mục tiêu chung Tất cả các mục tiêu Mua hàng sẽ được sự đồng ý" ;
+    ex:của "Doanh nghiệp và các kế hoạch hành động chung sẽ được xác định để đạt được những mục tiêu này" .
+
+ex:liên_tục_cải_tiến_chúng_ta_sẽ_vun_trồng_bồi_đắp_một_nền_văn_hóa_xuất_sắc_liên_tục rdfs:label "Liên tục Cải tiến Chúng ta sẽ vun trồng bồi đắp một nền văn hóa Xuất sắc Liên tục" ;
+    ex:của "Nestlé có sự tham gia và trao quyền cho nhân sự của chúng ta và đề cao sự cải tiến liên tục" .
+
+ex:lé rdfs:label "lé" ;
+    ex:is_a ex:misc .
+
+ex:lựa_chọn_nhà_cung_cấp_các_nhà_cung_cấp rdfs:label "Lựa chọn Nhà cung cấp Các nhà cung cấp" ;
+    ex:của "chúng ta là quan trọng đối với thành công của Doanh nghiệp chúng ta" .
+
+ex:mua rdfs:label "Mua" ;
+    ex:is_a ex:misc .
+
+ex:mua_hàng_ne rdfs:label "Mua Hàng Ne" ;
+    ex:is_a ex:misc .
+
+ex:mà_thiết_lập_một_tập_hợp_các_nguyên_tắc_nhằm_giúp_tất_cả_những_ai_đảm_nhận_hoạt_động_mua_hàng rdfs:label "” mà thiết lập một tập hợp các nguyên tắc nhằm giúp tất cả những ai đảm nhận hoạt động Mua hàng" ;
+    ex:có "thể hiểu rõ hơn về những điều căn bản trong Mua hàng tại Nestlé" .
+
+ex:một_nhà_cung_cấp rdfs:label "Một nhà cung cấp" ;
+    ex:có "tuyển là một nhà cung cấp đã được lựa chọn thông qua các Quy trình 7 Bước Cung ứng hoặc được xác nhận bởi bộ phận Mua hàng để cung cấp một thể loại chi tiêu đặc biệt" .
+
+ex:một_quy_trình_phê_duyệt_chính_thức_sẽ_được_soạn_thảo_bao_gồm_các_cấp_độ_phê_duyệt_các_vai_trò_và_trách_nhiệm rdfs:label "Một quy trình phê duyệt chính thức sẽ được soạn thảo bao gồm các cấp độ phê duyệt, các vai trò và trách nhiệm" ;
+    ex:của "tất cả người tham gia và sẽ bao gồm các quy định về việc chấp thuận cho Thị trường bên trên khi có liên quan" .
+
+ex:mục_tiêu rdfs:label "Mục tiêu" ;
+    ex:của "chúng ta là cung cấp các lợi ích bền vững ngắn hạn và lâu dài cho tất cả các đơn vị kinh doanh Nestlé" .
+
+ex:mục_đích_là_để_loại_bỏ_tất_cả_xung_đột_trước_khi_phân_bổ_các_vai_trò_tuy_nhiên_trong_trường_hợp_các_nhiệm_vụ_không_thể_phân_chia_tách_bạch_được_bộ_phận_thị_trường_sẽ rdfs:label "Mục đích là để loại bỏ tất cả xung đột trước khi phân bổ các vai trò, tuy nhiên, trong trường hợp các nhiệm vụ không thể phân chia tách bạch được, bộ phận Thị trường sẽ" ;
+    ex:có "yêu cầu lập và thực hiện các quy định về các sự kiểm soát thích hợp" .
+
+ex:mức_độ_tổng_hợp_sẽ_được_đội_ngũ_lãnh_đạo_mua_hàng_xem_xét_thường_xuyên_và_chính_thức_để_đưa_ra_mức_độ_tổng_hợp_hiệu_quả_nhất_cho_các_thể_loại_chi_tiêu rdfs:label "Mức độ tổng hợp sẽ được Đội ngũ Lãnh đạo Mua hàng xem xét thường xuyên và chính thức để đưa ra mức độ tổng hợp hiệu quả nhất cho các thể loại chi tiêu" ;
+    ex:của ex:doanh_nghiệp .
+
+ex:nest rdfs:label "Nest" ;
+    ex:is_a ex:org .
+
+ex:nestle rdfs:label "Nestle" ;
+    ex:is_a ex:org .
+
+ex:nestlé rdfs:label "Nestlé" ;
+    ex:is_a ex:org .
+
+ex:nguyên_tắc_chỉ_đạo_là_các_cải_tiến_chi_phí_sẽ rdfs:label "Nguyên tắc chỉ đạo là các cải tiến chi phí sẽ" ;
+    ex:có "so với chi phí mà Nestlé đã chịu khi không có hoạt động mua hàng" .
+
+ex:những_chiến_lược_này_sẽ_được_lưu_trong_một_kho_lưu_trữ_tổng_hợp_để_chia_sẻ_những_kiến_thức_và_thông_tin_và_để_tận_dụng_sự_hiểu_biết_sâu_sát rdfs:label "Những chiến lược này sẽ được lưu trong một kho lưu trữ tổng hợp để chia sẻ những kiến thức và thông tin và để tận dụng sự hiểu biết sâu sát" ;
+    ex:của "bộ phận Mua hàng trong nội bộ Nestlé" .
+
+ex:nên_cung_cấp_cho_nhân_viên_hoặc_nhà_thầu rdfs:label "Nên cung cấp cho nhân viên hoặc nhà thầu" ;
+    ex:của "Nestlé xem đó như điều kiện tiên quyết cho việc được cấp vai trò từ Mua hàng cho đến Thanh toán trong GLOBE" .
+
+ex:nếu rdfs:label "Nếu" ;
+    ex:có "vấn đề xin vui lòng liên hệ Trung tâm hỗ trợ khách hàng tại thời điểm nhân viên giao hàng còn ở đó" .
+
+ex:nếu_sau_thời_gian_thỏa_thuận_mà_chúng_tôi_không_giao_hàng_hoặc_không_phản_hồi_lại_khách_hàng_có_thể_gửi_khiếu_nại_trực_tiếp_về_địa_chỉ_trụ_sở_và_yêu_cầu_bồi_thường_nếu_chứng_minh_được_sự_chậm_trễ_làm_ảnh_hưởng_đến_kinh_doanh rdfs:label "Nếu sau thời gian thỏa thuận mà Chúng tôi không giao hàng hoặc không phản hồi lại, khách hàng có thể gửi khiếu nại trực tiếp về địa chỉ trụ sở và yêu cầu bồi thường nếu chứng minh được sự chậm trễ làm ảnh hưởng đến kinh doanh" ;
+    ex:của "quý khách" .
+
+ex:phát_triển_con_người_người rdfs:label "Phát triển Con người Người" ;
+    ex:của "chúng ta là tài sản quan trọng nhất của chúng ta và họ là chìa khóa thành công của chúng ta" .
+
+ex:phát_triển_nhà_cung_cấp_việc_phát_triển_nhà_cung_cấp_sẽ_được_thực_hiện_để_cải_thiện_hoặc_mở_rộng_các_khả_năng_cung_ứng rdfs:label "Phát triển Nhà cung cấp Việc phát triển nhà cung cấp sẽ được thực hiện để cải thiện hoặc mở rộng các khả năng cung ứng" ;
+    ex:của "nhà cung cấp, là điều rất cần thiết cho Nestlé, để liên tục đáp ứng những thách thức trong cạnh tranh" .
+
+ex:phê_duyệt_các_hợp_đồng_và_các_giao_dịch_mua_hàng_các_thỏa_thuận_và_các_giao_dịch_mua_hàng_phải rdfs:label "Phê duyệt các Hợp Đồng và các Giao dịch Mua hàng Các thỏa thuận và các giao dịch Mua hàng phải" ;
+    ex:có "chấp thuận bởi những người được uỷ quyền hợp lệ trong tổ chức Nestlé và tổ chức các nhà cung cấp" .
+
+ex:quy_trình_7_bước_chiến_lược_tìm_nguồn_cung_ứng_các_hoạt_động_tìm_nguồn_cung_ứng rdfs:label "Quy trình 7 Bước Chiến lược Tìm nguồn cung ứng Các hoạt động tìm nguồn cung ứng" ;
+    ex:của "chúng ta sẽ được thực hiện theo Quy trình 7 Bước Chiến lược Tìm nguồn cung ứng của Nestlé với mục đích biến kiến thức sâu sát về thị trường cung ứng trở thành một lợi thế cạnh tranh cho Doanh nghiệp của chúng ta" .
+
+ex:quy_trình_này_sẽ_diễn_ra_ở_tất_cả_các_cấp rdfs:label "Quy trình này sẽ diễn ra ở tất cả các cấp" ;
+    ex:của "tổ chức, cả bên trong và bên trên Thị trường" .
+
+ex:quy_trình_đổi_hàng_bước_1_sau_khi_nhận rdfs:label "Quy trình đổi hàng: Bước 1: Sau khi nhận" ;
+    ex:có "hàng" .
+
+ex:quy_tắc_này_bổ_sung_cho_các_nguyên_tắc_kinh_doanh rdfs:label "Quy tắc này bổ sung cho các Nguyên tắc Kinh doanh" ;
+    ex:của "Công ty Nestlé bằng cách nhấn mạnh các yêu cầu có liên quan đối với các nhà cung cấp của chúng ta" .
+
+ex:quản_lý_hiệu_suất_nhà_cung_cấp_việc_quản_lý_hiệu_suất_nhà_cung_cấp_sẽ_được_tiếp_tục_thực_hiện_để_đo_lường_tổng_thể_hiệu_suất rdfs:label "Quản lý Hiệu suất Nhà cung cấp Việc quản lý hiệu suất nhà cung cấp sẽ được tiếp tục thực hiện để đo lường tổng thể hiệu suất" ;
+    ex:của "các nhà cung cấp dựa vào các tiêu chí được thỏa thuận và xác định rõ ràng, không dựa hoàn toàn vào tiêu chí giá cả" .
+
+ex:quản_lý_và_phát_triển_nhà_cung_cấp_chúng_ta_mong_muốn_khai_mở_tiềm_năng rdfs:label "Quản lý và Phát triển Nhà cung cấp Chúng ta mong muốn khai mở tiềm năng" ;
+    ex:của "nhà cung cấp về lợi thế tổng chi phí, dịch vụ và đổi mới" .
+
+ex:riêng_khách_tỉnh_có_nhu_cầu_mua_số_lượng_lớn_hoặc_oem_nếu_có_nhu_cầu_mua_sản_phẩm_chúng_tôi_sẽ_nhờ_dịch_vụ_giao_nhận rdfs:label "Riêng khách tỉnh có nhu cầu mua số lượng lớn hoặc OEM nếu có nhu cầu mua sản phẩm, chúng tôi sẽ nhờ dịch vụ giao nhận" ;
+    ex:của "các công ty vận chuyển và phí sẽ được tính theo phí của các đơn vị cung cấp dịch vụ vận chuyển hoặc theo thỏa thuận hợp đồng giữa 2 bên" .
+
+ex:st rdfs:label "st" ;
+    ex:is_a ex:org .
+
+ex:sơ_tuyển_đối_tác_cung_cấp_việc_sơ_tuyển_các_đối_tác_cung_cấp_sẽ rdfs:label "Sơ tuyển Đối tác Cung cấp Việc sơ tuyển các đối tác cung cấp sẽ" ;
+    ex:có "thực hiện để thiết lập ra một danh sách sơ tuyển các nhà cung cấp" .
+
+ex:sản_xuất_gia_công_bộ_phận_mua_hàng_sẽ rdfs:label "Sản xuất gia công Bộ phận Mua hàng sẽ" ;
+    ex:có "tham gia vào quản lý việc cùng sản xuất gia công" .
+
+ex:sự_hài_lòng rdfs:label "Sự hài lòng" ;
+    ex:của "các Bên có lợi ích liên quan Then chốt Trên cơ sở hàng năm, chúng ta sẽ đánh giá sự hài lòng của các bên có lợi ích liên quan của chúng ta với sự hỗ trợ họ nhận được từ đội ngũ Mua hàng" .
+
+ex:sự_tham_gia_ngay_từ_đầu_bảo_đảm_rằng_bộ_phận_mua_hàng_có_thể_đóng_góp_mạnh_mẽ_các_kỹ_năng_thương_mại_sự_hiểu_biết_sâu_sắc_các_mặt_hàng_và_chuyên_môn rdfs:label "Sự tham gia ngay từ đầu bảo đảm rằng bộ phận Mua hàng có thể đóng góp mạnh mẽ các kỹ năng thương mại, sự hiểu biết sâu sắc các mặt hàng và chuyên môn" ;
+    ex:của "cơ sở nhà cung cấp Nestlé để đảm bảo các giải pháp sáng tạo đạt hiệu quả về chi phí bằng sự triển khai thực hiện xuyên suốt" .
+
+ex:sự_tương_tác_thường_xuyên_với_các_nhà_cung_cấp_sẽ rdfs:label "Sự tương tác thường xuyên với các nhà cung cấp sẽ" ;
+    ex:có "hoạch định và thực hiện để đảm bảo việc quản lý hiệu suất nhà cung cấp" .
+
+ex:tham_gia_sớm rdfs:label "Tham gia Sớm" ;
+    ex:của "Bộ Phận Mua hàng Phòng ban Mua hàng sẽ được tham gia vào lúc bắt đầu của bất kỳ quy trình nào liên quan đến các cuộc thảo luận thương mại hoặc lựa chọn nhà cung cấp" .
+
+ex:thông_qua_việc_tích_hợp_việc_cung_ứng_hàng_có_trách_nhiệm_vào_quy_trình_lựa_chọn_nhà_cung_cấp rdfs:label "Thông qua việc tích hợp việc cung ứng hàng có trách nhiệm vào quy trình lựa chọn nhà cung cấp" ;
+    ex:của "chúng ta, chúng ta sẽ bảo đảm rằng các nhà cung cấp của chúng ta chấp nhận và tuân thủ Quy tắc Áp Dụng cho Nhà Cung cấp của Nestlé" .
+
+ex:thông_tin_phản_hồi_sẽ rdfs:label "Thông tin phản hồi sẽ" ;
+    ex:có "chia sẻ thường xuyên với các nhà cung cấp để xác định và khắc phục các vấn đề tiềm tàng và xác định các cơ hội cải thiện" .
+
+ex:trong_trường_hợp_chỉ rdfs:label "Trong trường hợp chỉ" ;
+    ex:có "một nguồn cung ứng duy nhất hay chỉ có một nhà cung cấp chào giá không nằm trong danh sách các nhà cung cấp được tuyển, thì cần lý giải tại sao chọn lựa họ để cung cấp hàng và khi được yêu cầu, phải có hành động khắc phục sự tái diễn điều này" .
+
+ex:trường_hợp rdfs:label "Trường hợp" ;
+    ex:có ": - Sản phẩm trong thời hạn còn bảo hành" .
+
+ex:trường_hợp_không rdfs:label "Trường hợp không" ;
+    ex:có ": - Sản phẩm đã quá thời hạn ghi trên Biên bản bảo hành hoặc mất Biên bản bảo hành" .
+
+ex:trường_hợp_sau_khi_nhân_viên_giao_hàng_đã_đi_về_nếu_muốn_đổi_trả_hàng rdfs:label "– Trường hợp sau khi nhân viên giao hàng đã đi về – Nếu muốn đổi trả hàng" ;
+    ex:có "thể liên hệ với chúng tôi để được xử lý và hẹn lịch đổi trả hàng" .
+
+ex:tuy_nhiên_cũng rdfs:label "Tuy nhiên, cũng" ;
+    ex:có "trường hợp việc giao hàng kéo dài hơn nhưng chỉ xảy ra trong những tình huống bất khả kháng như sau: - Nhân viên chúng tôi liên lạc với khách hàng qua điện thoại không được nên không thể giao hàng" .
+
+ex:tuân_thủ_p2p_tất_cả_các_giao_dịch_mua_hàng_sẽ rdfs:label "Tuân thủ P2P Tất cả các giao dịch mua hàng sẽ" ;
+    ex:có "thực hiện theo các hướng dẫn về quy trình từ khâu Mua hàng cho đến khâu Thanh toán (P2P) để đảm bảo quy trình hiệu quả nhất được theo sau và một mức độ phù hợp về việc kiểm soát được duy trì" .
+
+ex:tuân_thủ_trách_nhiệm rdfs:label "Tuân thủ Trách nhiệm" ;
+    ex:của "nhân sự Nestlé là đảm nhận các hoạt động mua hàng hoặc tương tác với bộ phận có chức năng Mua hàng để đọc và hiểu chính sách này" .
+
+ex:tài_liệu_cũng_giúp_tất_cả_mọi_người_có_làm_việc_tương_tác_với_bộ_phận_mua_hàng_có_thể_nắm_bắt_các_thông_số_và_các_yêu_cầu_về_bất_kỳ_hoạt_động_mua_hàng_nào_trong_nội_bộ_nestlé_vì_nó_đóng_góp_vào_thành_công rdfs:label "Tài liệu cũng giúp tất cả mọi người có làm việc tương tác với bộ phận Mua hàng có thể nắm bắt các thông số và các yêu cầu về bất kỳ hoạt động mua hàng nào trong nội bộ Nestlé vì nó đóng góp vào thành công" ;
+    ex:của "Doanh nghiệp chúng ta" .
+
+ex:tài_liệu_này_nên_được_đọc_cùng_với_các_tài_liệu_sau_đây_các_nguyên_tắc_kinh_doanh rdfs:label "Tài liệu này nên được đọc cùng với các tài liệu sau đây: Các Nguyên tắc Kinh doanh" ;
+    ex:của "Công ty Nestlé Các Nguyên tắc Quản lý và Lãnh đạo Nestlé Quy tắc Ứng xử trong Kinh doanh của Nestlé Quy tắc Lãnh đạo và Chính sách Nhân sự của Nestlé Tiêu chuẩn Theo dõi Vượt trội trong Hoạt Động – các Tiêu Chuẩn ghi nhận Cải tiến Chi phí Quy trình phê duyệt nhà Cung cấp GI-31" .
+
+ex:tất_cả_các_hoạt_động_mua_hàng_sẽ_được_thực_hiện_theo_các_nguyên_tắc_trong_quy_tắc_ứng_xử_trong_kinh_doanh_và_các_nguyên_tắc_kinh_doanh rdfs:label "Tất cả các hoạt động mua hàng sẽ được thực hiện theo các nguyên tắc trong Quy tắc Ứng xử trong Kinh doanh và các Nguyên tắc Kinh doanh" ;
+    ex:của ex:công_ty_nestlé .
+
+ex:tất_cả_các_thông_tin_liên_quan_về_đề_xuất rdfs:label "Tất cả các thông tin liên quan về đề xuất" ;
+    ex:của "nhà cung cấp và những rủi ro liên quan đến nhà cung cấp hoặc việc giao các tài liệu sẽ được chia sẻ giữa bộ phận Mua hàng và Kinh doanh để đảm bảo rằng các quyết định được làm có xem xét tất cả các tình tiết quan trọng" .
+
+ex:việc_bộ_phận_mua_hàng_tham_gia_ngay_từ_đầu rdfs:label "Việc Bộ Phận Mua Hàng tham gia ngay từ đầu" ;
+    ex:của "bất kỳ quá trình tìm nguồn cung ứng sẽ đảm bảo phân tích rủi ro nguồn cung được thực hiện thích hợp và các chiến lược sẽ được đưa ra để giảm thiểu những rủi ro này và đảm bảo việc cung cấp hàng hóa và dịch vụ của chúng ta" .
+
+ex:việc_quản_lý_và_phát_triển_nhà_cung_cấp_giúp_đem_lại_và_bảo_đảm_các_lợi_ích_và_điều_này_sẽ_là_cốt_lõi_trong_các_chiến_lược_nhà_cung_cấp rdfs:label "Việc quản lý và phát triển nhà cung cấp giúp đem lại và bảo đảm các lợi ích và điều này sẽ là cốt lõi trong các chiến lược nhà cung cấp" ;
+    ex:của "chúng ta" .
+
+ex:việc_tuân_thủ_quy_trình_7_bước_chiến_lược_tìm_nguồn_cung_ứng_đảm_bảo_rằng_các_chiến_lược_thể_loại_và_nhà_cung_cấp rdfs:label "Việc tuân thủ Quy trình 7 Bước Chiến lược Tìm nguồn cung ứng đảm bảo rằng: các chiến lược thể loại và nhà cung cấp" ;
+    ex:có "thành lập và liên kết rõ ràng với các mục tiêu Doanh nghiệp, có tính đến sự phát triển cả trong hiện tại lẫn ở tương lai; sự lựa chọn nhà cung cấp được thực hiện một cách chặt chẽ bằng cách sử dụng các tiêu chí đánh giá phù hợp nhằm lựa chọn nhà cung cấp thích hợp nhất cho Nestlé; cơ sở dữ liệu về nhà cung cấp được quản lý một cách có hiệu quả để đem lại hiệu suất và mức độ tham gia tốt nhất" .
+
+ex:việc_đánh_giá_này_sẽ_đem_lại_kết_quả_là_một_quyết_định_về_việc_cuối_cùng rdfs:label "Việc đánh giá này sẽ đem lại kết quả là một quyết định về việc cuối cùng" ;
+    ex:có "thể hoặc không thể sử dụng nhà cung cấp để cung cấp hàng hóa hoặc dịch vụ cho Nestlé" .
+
+ex:và_việc_thanh_toán_sẽ rdfs:label "Và việc thanh toán sẽ" ;
+    ex:có "thực hiện theo hợp đồng" .
+
+ex:vấn_đề_quản_lý_các_quy_trình_cùng_sản_xuất_gia_công_trong_nội_bộ_nestlé rdfs:label "Vấn đề quản lý các quy trình cùng sản xuất gia công trong nội bộ Nestlé" ;
+    ex:có "điều chỉnh bởi bản hướng dẫn tổng hợp GI-01" .
+
+ex:về_phí_vận_chuyển_chúng_tôi_sử_dụng_dịch_vụ_vận_chuyển_ngoài_nên_cước_phí_vận_chuyển_sẽ_được_tính_theo_phí rdfs:label "Về phí vận chuyển, chúng tôi sử dụng dịch vụ vận chuyển ngoài nên cước phí vận chuyển sẽ được tính theo phí" ;
+    ex:của "các đơn vị vận chuyển tùy vào vị trí và khối lượng của đơn hàng, khi liên hệ lại xác nhận đơn hàng với khách sẽ báo mức phí cụ thể cho khách hàng" .
+
+ex:áp_dụng_chính_sách_mua_hàng_nestlé_áp_dụng_đối_với_tất_cả_nhân_viên rdfs:label "Áp dụng Chính sách Mua Hàng Nestlé áp dụng đối với tất cả nhân viên" ;
+    ex:của "Nestlé có nhiệm vụ thực hiện các hoạt động mua hàng cho Nestlé hoặc tương tác, trực tiếp hoặc gián tiếp, với bộ phận Mua hàng của Nestlé" .
+
+ex:điều_kiện_đổi_hàng_sản_phẩm_gửi_lại_phải_còn_nguyên_đai_nguyên_kiện_phiếu_bảo_hành_nếu_có_và_tem rdfs:label "Điều kiện đổi hàng: – Sản phẩm gửi lại phải còn nguyên đai nguyên kiện – Phiếu bảo hành (nếu có) và tem" ;
+    ex:của "công ty trên sản phẩm còn nguyên vẹn" .
+
+ex:điều_kiện_đổi_trả_hàng_-_sản_phẩm_phát_hiện_bị_lỗi rdfs:label "Điều kiện đổi trả hàng: - Sản phẩm phát hiện bị lỗi" ;
+    ex:của "nhà sản xuất khi nhận hàng" .
+
+ex:điều_lệ_mua_hàng rdfs:label "Điều lệ Mua hàng" ;
+    ex:của ex:nestlé_3,
+        "Nestlé Đem lại lợi thế cạnh tranh và giá trị bền vững cho Doanh nghiệp của chúng ta Tầm nhìn Mua hàng Bộ phận Mua hàng sẽ là một đối tác Kinh doanh chiến lược đem lại lợi thế cạnh tranh và giá trị bền vững cho tất cả chi tiêu của Nestlé; làm việc với Doanh nghiệp vì Doanh nghiệp" .
+
+ex:điều_này_sẽ rdfs:label "Điều này sẽ" ;
+    ex:có "thực hiện trên cơ sở chiến lược nhà cung cấp cụ thể và thích hợp nhất" .
+
+ex:điều_này_đảm_bảo_rằng_có_một_sự_hiểu_biết_sớm_về_năng_lực_một_nhà_cung_cấp_tiềm_năng_sự_sẵn_sàng_và_cam_kết_tuân_thủ_các_yêu_cầu rdfs:label "Điều này đảm bảo rằng có một sự hiểu biết sớm về năng lực một nhà cung cấp tiềm năng, sự sẵn sàng và cam kết tuân thủ các yêu cầu" ;
+    ex:của "Nestlé đối với: An toàn và Chất lượng Thực phẩm / Bao bì; Các Khả năng Kỹ thuật và nghiên cứu phát triển sản phẩm; Sự Cung ứng hàng một cách có trách nhiệm; Sự Ổn định Tài chính" .
+
+ex:đo_lường_hiệu_suất_mua_hàng_bộ_phận_mua_hàng_sẽ_đo_lường_hiệu_quả rdfs:label "Đo lường Hiệu suất Mua hàng Bộ phận Mua hàng sẽ đo lường hiệu quả" ;
+    ex:của "mình để đảm bảo rằng mình luôn cung cấp giá trị cho Doanh nghiệp và cung cấp một dịch vụ tốt hơn cho các bên có lợi ích liên quan Giới thiệu Là một bộ phận có chức năng Mua hàng, chúng ta sẽ thường xuyên đánh giá việc thực hiện của mình" .
+
+ex:đánh_giá_nhà_cung_cấp_các_nhà_cung_cấp_có_tiềm_năng_sẽ_được_đánh_giá_thêm_để_đảm_bảo_mọi_địa_điểm_cung_cấp_hàng rdfs:label "Đánh giá Nhà Cung cấp Các nhà cung cấp có tiềm năng sẽ được đánh giá thêm để đảm bảo mọi địa điểm cung cấp hàng" ;
+    ex:của "họ tuân thủ Quy tắc Áp Dụng cho Nhà Cung cấp của Nestlé và để đảm bảo chất lượng của hàng hóa và dịch vụ do họ cung cấp" .
+
+ex:đấu_thầu_cạnh_tranh_nghĩa_là_chúng_ta_mua_từ_một_nhà_cung_cấp rdfs:label "Đấu thầu cạnh tranh nghĩa là chúng ta mua từ một nhà cung cấp" ;
+    ex:có "tuyển hoặc, trong trường hợp không thực hiện được điều này, chúng ta chọn một nhà cung cấp để mua một số lượng hàng hóa đáng kể bằng cách tiếp nhận ít nhất là ba hồ sơ dự thầu hoặc ba bảng chào giá" .
+
+ex:đấu_thầu_cạnh_tranh_tất_cả_các_việc_mua_hàng_có_giá_trị_đáng_kể_sẽ_trải_qua_một_quá_trình_đấu_thầu_cạnh_tranh_để_đảm_bảo_rằng_nestlé_luôn_có_được_giá_cả_cạnh_tranh_dịch_vụ_và_chất_lượng_từ_các_nhà_cung_cấp rdfs:label "Đấu thầu Cạnh tranh Tất cả các việc mua hàng có giá trị đáng kể sẽ trải qua một quá trình đấu thầu cạnh tranh để đảm bảo rằng Nestlé luôn có được giá cả cạnh tranh, dịch vụ và chất lượng từ các nhà cung cấp" ;
+    ex:của "mình" .
+
+ex:để_tạo_điều_kiện_thuận_lợi_cho_điều_này_các_đối_tác_kinh_doanh_mua_hàng_sẽ rdfs:label "Để tạo điều kiện thuận lợi cho điều này, các đối tác Kinh doanh Mua hàng sẽ" ;
+    ex:có "đề cử cho mỗi đơn vị kinh doanh" .
+
+ex:để_đạt_được_điều_này_chúng_ta_sẽ_chủ_động_sử_dụng_các_nhà_cung_cấp rdfs:label "Để đạt được điều này, chúng ta sẽ chủ động sử dụng các nhà cung cấp" ;
+    ex:của "chúng ta trong sự gắn kết với tất cả các phòng ban chức năng có liên quan của Nestlé" .
+
+ex:để_đảm_bảo_độ_chính_xác_và_độ_tin_cậy rdfs:label "Để đảm bảo độ chính xác và độ tin cậy" ;
+    ex:của "báo cáo, tất cả các cải tiến chi phí sẽ được xác nhận bởi một kiểm soát viên về tài chính" .
+
+ex:đối_tác_kinh_doanh_bộ_phận_mua_hàng_sẽ_là_một_đối_tác_kinh_doanh_chiến_lược_ở_tất_cả_các_cấp rdfs:label "Đối tác Kinh doanh Bộ phận Mua hàng sẽ là một đối tác kinh doanh chiến lược ở tất cả các cấp" ;
+    ex:của "tổ chức Nestlé" .
+
+ex:đối_với_khách_hàng rdfs:label "Đối với khách hàng" ;
+    ex:có "nhu cầu mua số lượng lớn để kinh doanh hoặc OEM vui lòng liên hệ trực tiếp với chúng tôi để có chính sách giá cả hợp lý" .
+
+ex:đổi_mới_luôn_ưu_tiên_cao_nhất_cho_các_đổi_mới rdfs:label "Đổi mới Luôn ưu tiên cao nhất cho các đổi mới" ;
+    ex:của "nhà cung cấp; đảm bảo sự tham gia của nhà cung cấp năng động đa chức năng và liên tục khai phá môi trường cung cấp" .
+
+ex:công_ty_nestlé rdfs:label "Công ty Nestlé" .
+
+ex:nestlé_3 rdfs:label "Nestlé 3" .
+
+ex:doanh_nghiệp rdfs:label "Doanh nghiệp" .
+
+ex:misc rdfs:label "MISC" .
+
+ex:org rdfs:label "ORG" .
+
